@@ -95,6 +95,6 @@ Environment="JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64"
 
 and default points to the latest installed Java.
 
-![latest](./assets/20250717171003.png).
+![latest](./assets/20250717170904.png).
 
 That's all.Happy playing with Jenkins!
