@@ -29,7 +29,7 @@ sudo update-alternatives --config java
 java -version
 ```
 
-![[Pasted image 20250717170904.png]]
+![version](./assets/20250717170904.png).
 
 #### Step5: Install Jenkins from Official 
 
@@ -45,7 +45,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 sudo apt-get install jenkins -y
 ```
 
-![[Pasted image 20250717171259.png]]
+![install](./assets/20250717171259.png).
 
 #### Step5: For some reason if it fails. Check the error using this.
 
@@ -64,7 +64,7 @@ Environment="JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64"
 
 and default points to the latest installed Java.
 
-![[Pasted image 20250717171003.png]]
+![latest](./assets/20250717171003.png).
 
 #### Step7: Check Jenkins is running or not and start if not.
 
@@ -83,7 +83,7 @@ sudo systemctl status jenkins
 sudo systemctl status jenkins
 ```
 
-![[Pasted image 20250717171853.png]]
+![status](./assets/20250717171853.png).
 
 #### Step 9: Access the Jenkins to work with it.
 
