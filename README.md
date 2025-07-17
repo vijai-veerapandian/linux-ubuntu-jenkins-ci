@@ -97,7 +97,4 @@ and default points to the latest installed Java.
 
 ![latest](./assets/20250717171003.png).
 
-
-![version](./assets/20250717170904.png).
-
 That's all.Happy playing with Jenkins!
