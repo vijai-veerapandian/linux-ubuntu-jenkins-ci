@@ -11,13 +11,13 @@ Technical stack
 ```
 sudo apt-get update -y
 ```
-![update](./assets/20250717170435.png).
+![update](./assets/20250717170435.png)
 
 #### Step2: Install Java17
 ```
 sudo apt-get install openjdk-17-jdk -y
 ```
-![[Pasted image 20250717170605.png]]
+![install](./assets/20250717170605.png)
 
 
 #### Step3: Install Jenkins from Official 
@@ -34,7 +34,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 sudo apt-get install jenkins -y
 ```
 
-![install](./assets/20250717171259.png).
+![install](./assets/20250717171259.png)
 
 #### Step4: For some reason if it fails. Check the error using this.
 
@@ -57,14 +57,14 @@ sudo systemctl status jenkins
 sudo systemctl status jenkins
 ```
 
-![status](./assets/20250717171853.png).
+![status](./assets/20250717171853.png)
 
 #### Step 7: Access the Jenkins to work with it.
 
 ```
 http://server-ip-address:8080
 ```
-![access](./assets/20250717175218.png).
+![access](./assets/20250717175218.png)
 
 #### Step 8:
 Incase remove the current setup.
@@ -96,6 +96,6 @@ Environment="JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64"
 
 and default points to the latest installed Java.
 
-![latest](./assets/20250717170904.png).
+![latest](./assets/20250717170904.png)
 
 That's all. Start building with Jenkins!:-)
