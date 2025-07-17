@@ -64,6 +64,7 @@ sudo systemctl status jenkins
 ```
 http://server-ip-address:8080
 ```
+![access](./assets/20250717175218.png).
 
 #### Step 8:
 Incase remove the current setup.
