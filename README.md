@@ -11,7 +11,7 @@ Technical stack
 ```
 sudo apt-get update -y
 ```
-![update](./assets/"Pasted image 20250717170435.png").
+![update](./assets/20250717170435.png).
 
 ### Step2: Install Java17
 ```
