@@ -114,11 +114,19 @@ http://jenkins-master:8080
 ```
 ![image](./assets/2025-07-24-19-48-01.png)
 
+select "Set up an agent"
+
 ![image](./assets/2025-07-24-19-50-03.png)
+
+Give new node name and type as Permanent agent and then go for create.
 
 ![image](./assets/2025-07-24-19-50-25.png)
 
+Configure the jenkins agent as shown below. 
+
 ![image](./assets/2025-07-24-19-52-14.png)
+
+Make sure to add the SSH credentials under credentials Jenkins provider.
 
 ![image](./assets/2025-07-24-19-52-46.png)
 
