@@ -130,12 +130,18 @@ Make sure to add the SSH credentials under credentials Jenkins provider.
 
 ![image](./assets/2025-07-24-19-52-46.png)
 
+Jenkins credentials Provider: Jenkins 
+
 ![image](./assets/2025-07-24-19-53-32.png)
 
+Once added, Just make sure Host key vertification strategy is set to Known hosts file verification strategy. 
+Which means you should have already ssh from the Jenkins master to Jenkins VM01 agent. So, the Vm01 host details would be auto-added into the Jenkins master server known hosts list.
 ![image](./assets/2025-07-24-19-54-00.png)
 
+Once save and added check for status update.
 ![image](./assets/2025-07-24-19-54-41.png)
 
+Jenkins master is now connected with Jenkins Vm01 agent via ssh.
 ![image](./assets/2025-07-24-19-55-00.png)
 
 
