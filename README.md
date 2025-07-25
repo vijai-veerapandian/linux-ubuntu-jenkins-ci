@@ -102,3 +102,33 @@ and default points to the latest installed Java.
 ![latest](./assets/20250717170904.png)
 
 That's all. Start building with Jenkins!:-)
+
+
+#### Add VM agent to Jenkins master node
+
+
+After configured your Jenkins master, Login into the Jenkins master again.
+
+```
+http://jenkins-master:8080
+```
+![image](./assets/2025-07-24-19-48-01.png)
+
+![image](./assets/2025-07-24-19-50-03.png)
+
+![image](./assets/2025-07-24-19-50-25.png)
+
+![image](./assets/2025-07-24-19-52-14.png)
+
+![image](./assets/2025-07-24-19-52-46.png)
+
+![image](./assets/2025-07-24-19-53-32.png)
+
+![image](./assets/2025-07-24-19-54-00.png)
+
+![image](./assets/2025-07-24-19-54-41.png)
+
+![image](./assets/2025-07-24-19-55-00.png)
+
+
+
