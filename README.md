@@ -141,8 +141,9 @@ Which means you should have already ssh from the Jenkins master to Jenkins VM01 
 Once save and added check for status update.
 ![image](./assets/2025-07-24-19-54-41.png)
 
-Jenkins master is now connected with Jenkins Vm01 agent via ssh.
+Jenkins master is now connected with Jenkins Vm01 agent via ssh
 ![image](./assets/2025-07-24-19-55-00.png)
 
-
+Status and specific check of Vm01 Jenkins agent.
+![image](./assets/2025-07-24-20-12-36.png)
 
