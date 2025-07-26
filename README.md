@@ -132,6 +132,9 @@ Make sure to add the SSH credentials under credentials Jenkins provider.
 
 ![image](./assets/2025-07-24-19-52-46.png)
 
+Make sure the tool are enabled for the Jenkins agent to process build jobs.
+![image](./assets/2025-07-26-033648.jpg)
+
 Jenkins credentials Provider: Jenkins 
 
 ![image](./assets/2025-07-24-19-53-32.png)
@@ -152,28 +155,7 @@ Status and specific check of Vm01 Jenkins agent.
 
 #### Preparing Jenkins Agent to handle different application job processing
 
-#### My personal favourite Install Homebrew on Jenkins agent
-
 ```
-# Install Homebrew (this works on Linux too)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew version
-```
-
-Add Homebrew to PATH:
-
-```
-# Add to your profile
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
-source ~/.bashrc
-```
-
-```
-sudo apt-get install build-essential curl file git 
-```
-```
-brew install go
 ```
 
 Verification 
@@ -184,5 +166,7 @@ which go
 ```
 
 # Configure Jenkins Agent tools 
+
+
 
 
