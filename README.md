@@ -1,5 +1,5 @@
 # linux-ubuntu-jenkins-ci
-Quick jenkins setup guide for building CI pipeline
+Quick jenkins Master and Agent setup guide for building CI pipeline
 
 
 Technical stack 
@@ -103,6 +103,8 @@ and default points to the latest installed Java.
 
 That's all. Start building with Jenkins!:-)
 
+#### Important: Start installing Git, Go and other application plugins on the Jenkins master node as well on the agent later on as it is required for running Build Job processing.
+
 
 #### Add VM agent to Jenkins master node
 
@@ -146,4 +148,41 @@ Jenkins master is now connected with Jenkins Vm01 agent via ssh
 
 Status and specific check of Vm01 Jenkins agent.
 ![image](./assets/2025-07-24-20-12-36.png)
+
+
+#### Preparing Jenkins Agent to handle different application job processing
+
+#### My personal favourite Install Homebrew on Jenkins agent
+
+```
+# Install Homebrew (this works on Linux too)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew version
+```
+
+Add Homebrew to PATH:
+
+```
+# Add to your profile
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+```
+sudo apt-get install build-essential curl file git 
+```
+```
+brew install go
+```
+
+Verification 
+
+```
+go version
+which go 
+```
+
+# Configure Jenkins Agent tools 
+
 
