@@ -202,3 +202,10 @@ and this will install the Nodejs and will restart the Jenkins master.
 
 ![image](./assets/2025-08-03-234435.jpg)
 
+
+and make sure, under Manage Jenkins > Tools > NodeJS installations 
+
+NodeJS-18 is configured with "Install automatically" enabled and version "NodeJS 18.0.0" is selected and saved. So, the Jenkins master is aware of the nodejs version you're dealing with the application build process and will make sure it is installed on the VM agent.
+
+![image](./assets/2025-08-04-001058.jpg)
+
