@@ -194,6 +194,11 @@ node --version
 npm --version
 ```
 
+#### Make sure nodejs plugin is enabled on the Jenkins master -> Manage jenkins 
 
+![image](./assets/2025-08-03-234206.jpg)
 
+and this will install the Nodejs and will restart the Jenkins master.
+
+![image](./assets/2025-08-03-234435.jpg)
 

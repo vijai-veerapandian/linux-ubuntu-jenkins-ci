@@ -1,7 +1,7 @@
 # jenkinsfile-nodejs
 
 pipeline {
-    agent vm01
+    agent 'vm01'
     stages {
         stage('Test') {
             steps {
