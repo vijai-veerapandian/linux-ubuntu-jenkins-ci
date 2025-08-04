@@ -185,7 +185,8 @@ sudo apt-get update && sudo apt upgrade -y
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - 
-sudo apt install -y nodejs
+sudo apt install nodejs -y 
+sudo apt install npm -y
 ```
 
 ```
