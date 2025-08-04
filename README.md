@@ -194,12 +194,6 @@ node --version
 npm --version
 ```
 
-```
-sudo npm install -g npm@latest
-```
-```
-sudo systemctl restart jenkins
-```
 
 
 
