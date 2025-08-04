@@ -158,7 +158,7 @@ Status and specific check of Vm01 Jenkins agent.
 ```
 ```
 
-Verification 
+#### Verification 
 
 ```
 go version
@@ -168,6 +168,18 @@ which go
 # Configure Jenkins Agent tools for Nodejs application building projects
 
 ```
+su - 
+apt-get update && apt-get upgrade -y
+```
+
+### Add jenkins user to sudoers 
+
+```
+usermod -aG sudo jenkins
+```
+
+```
+su - jenkins
 sudo apt-get update && sudo apt upgrade -y
 ```
 
