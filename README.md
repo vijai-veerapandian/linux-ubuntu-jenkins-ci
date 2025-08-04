@@ -165,7 +165,7 @@ go version
 which go 
 ```
 
-# Configure Jenkins Agent tools for Nodejs application building projects
+#### Enabling Nodejs plugin and related stuff on Jenkins master to support Nodejs application pipelines
 
 ```
 su - 
