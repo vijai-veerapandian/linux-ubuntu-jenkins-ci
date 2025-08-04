@@ -165,8 +165,28 @@ go version
 which go 
 ```
 
-# Configure Jenkins Agent tools 
+# Configure Jenkins Agent tools for Nodejs application building projects
 
+```
+sudo apt-get update && sudo apt upgrade -y
+```
+
+```
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - 
+sudo apt install -y nodejs
+```
+
+```
+node --version
+npm --version
+```
+
+```
+sudo npm install -g npm@latest
+```
+```
+sudo systemctl restart jenkins
+```
 
 
 

@@ -1,0 +1,13 @@
+# jenkinsfile-nodejs
+
+pipeline {
+    agent vm01
+    stages {
+        stage('Test') {
+            steps {
+                sh 'node --version'
+                sh 'npm --version'
+            }
+        }
+    }
+}
